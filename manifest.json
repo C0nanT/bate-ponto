@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Init Inputs",
+  "description": "Init Inputs in the page",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "scripting", "tabs"]
+}

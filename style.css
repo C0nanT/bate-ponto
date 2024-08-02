@@ -1,0 +1,17 @@
+/* Se você quiser estilizar ainda mais o popup */
+body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: #036307;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: #18811c;
+}
