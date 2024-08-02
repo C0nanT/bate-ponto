@@ -1,10 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Bate Ponto",
-  "description": "Bate Ponto",
+  "name": "Init Inputs",
+  "description": "Init Inputs in the page",
   "version": "1.0",
   "action": {
     "default_popup": "index.html"
   },
-  "permissions": ["activeTab", "scripting", "tabs"]
+  "permissions": ["activeTab", "scripting", "tabs", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
 }
