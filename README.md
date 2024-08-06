@@ -1,5 +1,5 @@
 
-**Apenas algo para facilitar o dia a dia na empresa**
+**Algo para facilitar o dia a dia na empresa**
 
 ## Como instalar
 
