@@ -5,6 +5,7 @@ document
       const empInput = document.querySelector('input[name="emp"]');
       const usuInput = document.querySelector('input[name="usu"]');
       const cpfInput = document.querySelector('input[name="cpf"]');
+      const submitButton = document.querySelector('button[type="submit"]');
 
       if (empInput) {
         empInput.value = "codigodaempresa";
@@ -16,6 +17,10 @@ document
 
       if (cpfInput) {
         cpfInput.value = "cpf";
+      }
+
+      if (submitButton) {
+        submitButton.click();
       }
     };
 
