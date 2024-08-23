@@ -1,7 +1,7 @@
 document
   .getElementById("meuBotao")
   .addEventListener("click", async function () {
-    const fillInputs = () => {
+    const bateponto = () => {
       const empInput = document.querySelector('input[name="emp"]');
       const usuInput = document.querySelector('input[name="usu"]');
       const cpfInput = document.querySelector('input[name="cpf"]');
@@ -31,6 +31,6 @@ document
 
     chrome.scripting.executeScript({
       target: { tabId: tab.id },
-      function: fillInputs,
+      function: bateponto,
     });
   });

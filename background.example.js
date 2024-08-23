@@ -1,11 +1,11 @@
 chrome.contextMenus.create({
-  id: "fillInputs",
-  title: "Preencher Inputs",
+  id: "bateponto",
+  title: "Bate Ponto",
   contexts: ["all"],
 });
 
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
-  if (info.menuItemId === "fillInputs") {
+  if (info.menuItemId === "bateponto") {
     chrome.scripting.executeScript({
       target: { tabId: tab.id },
       function: () => {
