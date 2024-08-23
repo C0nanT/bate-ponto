@@ -3,12 +3,11 @@
 
 ## Como instalar
 
- 1. Selecione a Release mais recente e baixe o `Source code.zip`
-2.  Clone os arquivos que contem `.example`, e retire o .example deles, deixando apenas o nome principal
-3. Enable developer mode
+1. Selecione a Release mais recente e baixe o `Source code.zip`
+2. Clone os arquivos que contem `.example`, e retire o .example deles, deixando apenas o nome principal
 4. Altere `codigodaempresa` e `cpf` pelos seus valores próprios e depois salve
-5. Abrá o gerenciador de extensões do seu navegador
-6. Habilite o modo desenvolvedor
+5. Abra o gerenciador de extensões do seu navegador
+6. Habilite o modo desenvolvedor na página de extensões
 7. Selecione o botão escrito `Carregar sem compactação`
 8. Selecione a pasta do projeto e está pronto
 
