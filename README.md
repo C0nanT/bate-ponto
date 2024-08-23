@@ -4,7 +4,7 @@
 ## Como instalar
 
  1. Selecione a Release mais recente e baixe o `Source code.zip`
-2.  Clone os arquivos que contem `.example`, e retire o .example deles, deixando apenas um nome
+2.  Clone os arquivos que contem `.example`, e retire o .example deles, deixando apenas o nome principal
 3. Enable developer mode
 4. Altere `codigodaempresa` e `cpf` pelos seus valores próprios e depois salve
 5. Abrá o gerenciador de extensões do seu navegador
